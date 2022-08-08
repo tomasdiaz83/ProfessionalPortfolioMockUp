@@ -5,60 +5,123 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomas' Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-    <h1>Tomas Diaz</h1>
+    <header>
+        
+        <section class="Title">
+            <h1>Tomas Diaz</h1>
+            <h2>[Software Engineer, Theologian, Scribbler]</h2>
+        </section>
     
-    <nav>
-            
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <nav>
+                
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
 
-    </nav>
+        </nav>
+
+    </header>
 
     <main>
 
-        <figure class="centerImg">
-            <img src=# alt="">
-            <figcaption>The Engineer in Thought</figcaption>
-        </figure>
+        <h2 id="about">About</h2>
 
-        <section id="about">
-            <h2>About</h2>
-            <p>Lorem ipsum</p>
+        <section class="bio">
+
+            <img class="img" src="./assets/Images/Alchemist.jpg" alt="">
+
+            <div class="about">
+                <h2>Bio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eligendi ut culpa, ullam incidunt rem a atque natus excepturi cum voluptates aut labore fugiat, aliquam laborum iure id esse et!</p>
+            </div>
+
         </section>
 
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
 
-        <section id="projects">
+        <section class="projects">
                         
-            <section class="card">
-                <header>Pulp Classics Reader</header>
-                <img src="assets/Images/EDT8o8PXkAAIGAB Cropped.jpg" alt="">
+            <section class="proj-card proj-1">
+                <a href="https://tomasdiaz83.github.io/LandingPageActivity/" target="_blank" rel="noreferrer noopener">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Landing Page</h3>
+                        <img src="./assets/Images/DiTFVzaVAAElVz7.jpg" class="imgFit">
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Landing Page</h3>
+                        <p>A small exercise in building a contact form.</p>
+                    </div>
+                </div>
+                </a>
             </section>
-            
-            <section class="card">
-                <header>Hangman Game</header>
-                <img src= alt="">
+
+            <section class="proj-card">
+                <a href="https://tomasdiaz83.github.io/SabatonFanpage/" target="_blank" rel="noreferrer noopener">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Sabaton Fanpage</h3>
+                        <img src="./assets/Images/image.jpg" class="imgFit">
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Sabaton Fanpage</h3>
+                        <p>A small practice at creating a simple fanpage.</p>
+                    </div>
+                </div>
+                </a>
             </section>
-            
-            <section class="card">
-                <header>Divine Worship: Daily Office (Daily Devotional)</header>
-                <img src= alt="">
+
+            <section class="proj-card">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Project 1</h3>
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque maiores aperiam itaque accusamus ex suscipit? Sed, maiores. Odio tempora consequuntur provident quibusdam explicabo iste, nihil magni voluptatum perferendis impedit.</p>
+                    </div>
+                </div>
             </section>
-            
-            <section class="card">
-                <header>Homeschool Database</header>
-                <img src= alt="">
+
+            <section class="proj-card">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Project 1</h3>
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque maiores aperiam itaque accusamus ex suscipit? Sed, maiores. Odio tempora consequuntur provident quibusdam explicabo iste, nihil magni voluptatum perferendis impedit.</p>
+                    </div>
+                </div>
             </section>
-            
-            <section class="card">
-                <header>Pulp Story Recommender</header>
-                <img src= alt="">
+
+            <section class="proj-card">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Project 1</h3>
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque maiores aperiam itaque accusamus ex suscipit? Sed, maiores. Odio tempora consequuntur provident quibusdam explicabo iste, nihil magni voluptatum perferendis impedit.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="proj-card">
+                <div class="proj-card-inner">
+                    <div class="proj-card-front">
+                        <h3>Project 1</h3>
+                    </div>
+                    <div class="proj-card-back">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque maiores aperiam itaque accusamus ex suscipit? Sed, maiores. Odio tempora consequuntur provident quibusdam explicabo iste, nihil magni voluptatum perferendis impedit.</p>
+                    </div>
+                </div>
             </section>
             
         </section>
@@ -67,10 +130,20 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email</p>
-        <p>GitHub</p>
+        <section class="contactBoxes">
+            <div>
+                <a href="#" target="_blank" rel="noreferrer noopener">Email</a>
+            </div>
+            <div>
+                <a href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </div>
+        </section>
     </section>
     
+    <footer class="endFooter">
+        <div>
+            <p>Made by Tomas Diaz circa 2022</p>
+        </div>
     </footer>
 
 </body>
