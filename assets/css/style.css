@@ -253,10 +253,6 @@ nav a {
         max-width: 60%;
     }
 
-    .projects {
-        /* flex-direction: column; */
-    }
-
     .proj-card {
         flex: 1 0 90%;
     }
