@@ -236,6 +236,14 @@ nav a {
         font-size: 2rem;
     }
 
+    .imgFit {
+        height: 50%;
+    }
+
+    .proj-1 .imgFit {
+        height: 75%;
+    }
+
 
   }
   /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
