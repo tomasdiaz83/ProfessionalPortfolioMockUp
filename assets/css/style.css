@@ -1,13 +1,16 @@
+/* Color variables */
 :root {
     --primary: #454851;
     --secondary: #eaeaea;
     --text: #e55934;
 }
 
+/* Ensures navigation links don't send beginning of linked content behind header */
 html {
     scroll-padding-top: 100px;
 }
 
+/* Setting basic and inheritable body stylings */
 body {
     font-family:Arial, Helvetica, sans-serif;
     position:relative;
@@ -16,14 +19,15 @@ body {
     margin: 0;
 }
 
+/* Removing usual link decoration */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Header with Navigation Bar */
+/* Header styling */
 header {
-    position: sticky;
+    position: sticky; /* While fixed was recommended instead of sticky, sticky works */
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -32,6 +36,7 @@ header {
     z-index:1000;
 }
 
+/* styling for header titles (Name and subtitle) */
 header h1, header h2 {
     padding-left: 20px;
 }
@@ -45,6 +50,7 @@ header h2{
     margin: 0 0 10px 0;
 }
 
+/* Nav styling, with anchors specified as flexboxes */
 nav {
     display: flex;
     flex: 0 0 100px;
@@ -62,6 +68,7 @@ nav a {
     justify-content: space-around;
 }
 
+/* styled to not take up too much space relative to the about and to respond to viewport resizing */
 .img {
     flex: 25%;
     display: inline;
@@ -84,7 +91,6 @@ nav a {
 }
 
 /* The Project Flip Cards */
-
 .projects {
     display: flex;
     justify-content: space-around;
@@ -195,7 +201,7 @@ nav a {
     padding: 2rem;
 }
 
-/* Tablet Screen Adjustments */
+/* Adjustments for Tablet Screen */
 @media screen and (max-width: 992px) {
     header {
         flex-direction: column;
@@ -220,7 +226,6 @@ nav a {
         perspective: 1000px;
     }
     
-    /* Offsetting Project 1 */
     .proj-1 {
         flex: 0 0 66%;
         height: 300px;
@@ -246,7 +251,7 @@ nav a {
 
 
   }
-  /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
+  /* Adjustments for phone size screen */
   @media screen and (max-width: 768px) {
     .bio {
         flex-direction: column;
