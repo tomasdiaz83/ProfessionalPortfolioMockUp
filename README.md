@@ -12,9 +12,9 @@ Website, hosted at: https://tomasdiaz83.github.io/ProfessionalPortfolioMockUp/.
 ## Credits
 
 Images are (as appearing):
--Artistic impression of Ibn Jabir (Primary)
--"Sound" by Frank Frazetta (Project 1)
--"Cover for Blazing Combat #4" (cropped) by Frank Frazetta (Project 2)
+- Artistic impression of Ibn Jabir (Primary)
+- "Sound" by Frank Frazetta (Project 1)
+- "Cover for Blazing Combat #4" (cropped) by Frank Frazetta (Project 2)
 
 ## License
 
